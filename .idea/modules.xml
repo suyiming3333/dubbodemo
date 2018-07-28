@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubberclient/dubberclient.iml" filepath="$PROJECT_DIR$/dubberclient/dubberclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbodemo.iml" filepath="$PROJECT_DIR$/dubbodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboserver/dubboserver.iml" filepath="$PROJECT_DIR$/dubboserver/dubboserver.iml" />
+    </modules>
+  </component>
+</project>
