@@ -1,6 +1,6 @@
 package com.sym.main;
 
-import com.sym.service.HelloService;
+import com.sym.service.HelloServiceI;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ClientMain {
@@ -8,7 +8,7 @@ public class ClientMain {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 new String[] { "applicationConsumer.xml" });
         context.start();
-        HelloService service = (HelloService) context.getBean("helloService");
+        HelloServiceI service = (HelloServiceI) context.getBean("helloService");
         System.out.println(service.sayHello("world222"));
         context.close();
     }

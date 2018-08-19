@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dubberclient/dubberclient.iml" filepath="$PROJECT_DIR$/dubberclient/dubberclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonapi/commonapi.iml" filepath="$PROJECT_DIR$/commonapi/commonapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboclient/dubbo-client.iml" filepath="$PROJECT_DIR$/dubboclient/dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboserver/dubbo-server.iml" filepath="$PROJECT_DIR$/dubboserver/dubbo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbodemo.iml" filepath="$PROJECT_DIR$/dubbodemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubboserver/dubboserver.iml" filepath="$PROJECT_DIR$/dubboserver/dubboserver.iml" />
     </modules>
   </component>
 </project>

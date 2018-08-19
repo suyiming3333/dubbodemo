@@ -10,5 +10,5 @@
     <!-- zookeeper注册中心 -->
     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
     <!-- 向注册中心订阅服务 -->
-    <dubbo:reference id="helloService" interface="com.sym.service.HelloService"/>
+    <dubbo:reference id="helloService" interface="com.sym.service.HelloServiceI"/>
 </beans>

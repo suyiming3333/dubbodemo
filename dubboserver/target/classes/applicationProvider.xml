@@ -13,7 +13,7 @@
 
     <bean id="helloService" class="com.sym.service.impl.HelloServiceImpl"/>
 
-    <dubbo:service interface="com.sym.service.HelloService" ref="helloService" executes="10"/>
+    <dubbo:service interface="com.sym.service.HelloServiceI" ref="helloService" executes="10"/>
 
 
 </beans>

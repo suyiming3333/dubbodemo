@@ -26,7 +26,8 @@
   <name>dubbodemo</name>
   <modules>
     <module>dubboserver</module>
-    <module>dubberclient</module>
+    <module>dubboclient</module>
+    <module>commonapi</module>
   </modules>
   <groupId>com.sym</groupId>
   <artifactId>dubbodemo</artifactId>
