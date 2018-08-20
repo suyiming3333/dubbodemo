@@ -1,7 +1,10 @@
 package com.sym.service.impl;
 
 import com.sym.service.HelloServiceI;
+import org.springframework.stereotype.Service;
 
+
+@Service("helloService")
 public class HelloServiceImpl implements HelloServiceI
 {
     public String sayHello(String name) {
