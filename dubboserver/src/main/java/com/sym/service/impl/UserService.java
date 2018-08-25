@@ -19,7 +19,7 @@ public class UserService {
         return userMapper.selectUser(id);
     }
 
-    public void addUser(User user) {
+    public int addUser(User user) {
         int insertRow = userMapper.addUser(user);
         throw new RuntimeException("测试编程式事务回滚");
     }

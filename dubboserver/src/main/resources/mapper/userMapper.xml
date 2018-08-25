@@ -6,4 +6,9 @@
     <select id="selectUser" resultType="com.sym.entity.User">
         select * from user where id = #{id}
     </select>
+
+    <insert id="addUser" keyProperty="id" useGeneratedKeys="true" parameterType="com.sym.entity.User">
+        INSERT into user(username,age)
+        VALUES (#{username},#{age})
+    </insert>
 </mapper>
